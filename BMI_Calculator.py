@@ -1,14 +1,21 @@
-#BMI
-weight = int(input("Enter your weight (in KG) = "))
-height = float(input("Enter you height (in Meters) ="))
-BMI = int(weight/(height**2))
-if BMI <= 18.4:
-    print(f"Your BMI is {BMI} and you are 'Underweight'")
-elif BMI <= 25:
-    print(f"Your BMI is {BMI} and you are 'Normal'")
-elif BMI <= 30:
-    print(f"Youe BMI is {BMI} and you are 'Overweight'")
-elif BMI <= 35:
-    print(f"Youe BMI is {BMI} and you are 'Obese Class -1'")
+# BMI calculator:
+wt = float(input('Enter your weight (in Kg) = '))
+height = float(input('Enter your height (in meter) = '))
+bmi = ((wt/(height**2)))
+print (f'Your BMI is {bmi}.')
+if bmi <= 16:
+    print('Your are underweight (Severe thinness)')
+elif bmi <=16.9:
+    print('You are underweight (Moderate thinness)')
+elif bmi <= 18.4:
+    print('You are underweight (Mild thinness)')
+elif bmi <= 24.9:
+    print('Your are under Normal Range')
+elif bmi <= 29.9:
+    print('You are Overweight (Pre-obese)')
+elif bmi <= 34.9:
+    print('You are Obese (class -1)')
+elif bmi <= 39.9:
+    print('You are Obese (class -2)')
 else:
-    print(f"Youe BMI is {BMI} and you are 'Obese Class -2'")
+    print('You are Obese (Class -3)')

@@ -1,3 +1,5 @@
+# WAP to find maximum number from the list.
+#! Method - 1
 num = input("Enter list of numbers : ")
 split_num = num.split()
 count = 0
@@ -11,7 +13,7 @@ for number in split_num:
         max_numbr = number
 print(f"The maximum number is : {max_numbr}")
 
-#! Method -2
+#! Method - 2
 num = input("Enter list of numbers : ")
 split_num = num.split()
 split_num.sort()

@@ -52,7 +52,6 @@
 #! Method - 5
 height = input("Enter the heights separate with comma(,) : ")
 height = height.split(',')
-# count = height.count(',')+1
 count = height.count(',')+1
 total = 0
 for i in height :

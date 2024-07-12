@@ -10,3 +10,9 @@ for number in split_num:
     if number > max_numbr:
         max_numbr = number
 print(f"The maximum number is : {max_numbr}")
+
+#! Method -2
+num = input("Enter list of numbers : ")
+split_num = num.split()
+split_num.sort()
+print(f"The maximum number is = {split_num[-1]}")

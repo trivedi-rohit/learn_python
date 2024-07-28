@@ -213,3 +213,24 @@ def list(list1):
     return statistics.mean(list1), statistics.median(list1), statistics.mode(list1)
 mean, median, mode = list([3,5,45,3,2,1,89])
 print(f"The value of mean, median, mode are {mean}, {median}, {mode} respectively.")
+
+#! Method -1:
+def format_name(fname, lname):
+    if fname=="" and lname=="":
+        return "Enter valid name"
+    else:
+        return (f"{fname.title()} {lname.title()}")
+    
+print(format_name ("rohit","Trivedi"))
+
+#! Method -2:
+def format_name(fname,lname):
+    if fname=="" and lname=="":
+        return "Enter a valid name"
+    else:
+        return fname.title(),lname.title()
+        
+fname=input("Enter first name : ")
+lname=input("Enter last name : ")
+result=format_name(fname,lname)
+print(result)

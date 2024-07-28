@@ -214,7 +214,7 @@ def list(list1):
 mean, median, mode = list([3,5,45,3,2,1,89])
 print(f"The value of mean, median, mode are {mean}, {median}, {mode} respectively.")
 
-#! Method -1:
+# Method -1:
 def format_name(fname, lname):
     if fname=="" and lname=="":
         return "Enter valid name"
@@ -228,7 +228,7 @@ def format_name(fname,lname):
     if fname=="" and lname=="":
         return "Enter a valid name"
     else:
-        return fname.title(),lname.title()
+        return f"{fname.title()} {lname.title()}"
         
 fname=input("Enter first name : ")
 lname=input("Enter last name : ")

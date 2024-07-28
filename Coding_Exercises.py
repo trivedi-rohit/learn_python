@@ -196,6 +196,7 @@ def prime (n):
 num = int(input("Enter a number : "))
 prime(num)
 
+#! Title case:
 def format_name(f_name, l_name):
     first=f_name.title()
     last=l_name.title()
@@ -206,3 +207,9 @@ print(format_name("rohit","TRIVEDI")) # (print)
 formatted=format_name("rohit","TRIVEDI") #!
 print(formatted) #!
 
+#! stats function use & return value
+import statistics
+def list(list1):
+    return statistics.mean(list1), statistics.median(list1), statistics.mode(list1)
+mean, median, mode = list([3,5,45,3,2,1,89])
+print(f"The value of mean, median, mode are {mean}, {median}, {mode} respectively.")

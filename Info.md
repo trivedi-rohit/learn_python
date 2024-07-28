@@ -9,29 +9,29 @@
 
 # Tuples
 
-Collection of items which is ordered.
-Tuples are immutable (unchangeable) .
-Brackets used to represent: ()
-Only difference between tuples and lists are that lists can be changed.
-Tuples are faster than lists as they are immutable.
+1. Collection of items which is ordered.
+2. Tuples are immutable (unchangeable) .
+3. Brackets used to represent: ()
+4. Only difference between tuples and lists are that lists can be changed.
+5. Tuples are faster than lists as they are immutable.
 
 
 # Sets
 
-Collection of Unordered and Unindexed items.
-Sets are mutable (changeable).
-Does not take duplicate Values.
-Sets are unordered, so you cannot be sure in which order the items will appear.
-Brackets used to represent: { }.
-Sets are not faster than lists however they have a upper hand when it comes to membership testing.
+1. Collection of Unordered and Unindexed items.
+2. Sets are mutable (changeable).
+3. Does not take duplicate Values.
+4. Sets are unordered, so you cannot be sure in which order the items will appear.
+5. Brackets used to represent: { }.
+6. Sets are not faster than lists however they have a upper hand when it comes to membership testing.
 
 
 # Dictionaries
 
-Key:Value Pair in Python
-A dictionary is a collection which is unordered, changeable and indexed.
-In Python dictionaries are written with curly brackets, and they have keys and values.
-Brackets used to represent: {}.
+1. Key:Value Pair in Python
+2. A dictionary is a collection which is unordered, changeable and indexed.
+3. In Python dictionaries are written with curly brackets, and they have keys and values.
+4. Brackets used to represent: {}.
 
 EDIT 1:
 

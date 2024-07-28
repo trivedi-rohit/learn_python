@@ -1,10 +1,10 @@
 # Lists
 
-List is a collection which is ordered.
-Lists are mutable (changeable) .
-Allows duplicate members
-Brackets used to represent: []
-Lists are like arrays declared in other languages.
+1. List is a collection which is ordered.
+2. Lists are mutable (changeable) .
+3. Allows duplicate members
+4. Brackets used to represent: []
+5. Lists are like arrays declared in other languages.
 
 
 # Tuples

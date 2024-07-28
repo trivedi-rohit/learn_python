@@ -195,3 +195,14 @@ def prime (n):
         print("Not a prime number")    
 num = int(input("Enter a number : "))
 prime(num)
+
+def format_name(f_name, l_name):
+    first=f_name.title()
+    last=l_name.title()
+    print(f"{first} {last}")
+    return (f"{first} {last}")
+format_name("rohit","TRIVEDI") #Rohit Trivedi # (print)
+print(format_name("rohit","TRIVEDI")) # (print)
+formatted=format_name("rohit","TRIVEDI") #!
+print(formatted) #!
+

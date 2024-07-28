@@ -32,6 +32,7 @@ Key:Value Pair in Python
 A dictionary is a collection which is unordered, changeable and indexed.
 In Python dictionaries are written with curly brackets, and they have keys and values.
 Brackets used to represent: {}.
+
 EDIT 1:
 
 Dictionaries are ordered from Python 3.6 onwards.

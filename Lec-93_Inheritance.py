@@ -1,4 +1,5 @@
 class Human:
+    lang_name = 'Python'  # class attributes
     def eat(self):
         print("I can eat.")
     def work(self):
@@ -11,8 +12,8 @@ male_1.work()
 male_1.eat()
 #******************************************
 class Human:
-    def __init__(self,num_heart):
-        self.num_eyes = 2
+    def __init__(self,num_heart): # num_heart is argument & self is a keyword.
+        self.num_eyes = 2         #access class attributes with self keyword.
         self.num_nose = 1
         self.num_heart = num_heart
     def eat (self):

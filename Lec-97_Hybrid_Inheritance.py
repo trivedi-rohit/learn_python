@@ -48,16 +48,19 @@ class Student(Course,Branch):
         print(f"Student : {self.student_name}")
         
 class Faculty(Branch):
-        def __init__(self,uni_name,branch):
-            Branch.__init__(self,branch)
+        def __init__(self,branch, faculty_name):
+            Branch.__init__(self,branch,faculty_name)
+            self.faculty_name = faculty_name
         def display(self):
-            print('I am from Faculty')
+            print(f"Faculty : {self.faculty_name}")
 # u1 = University('ABC')   
-# c1 = Course('ABC','BTECH') 
-# b1 = Branch('ABC','CSE')        
-student_1 = Student('AKTU','BTECH','ECE',"Rohit Trivedi")
+# c1 = Course('ABC','B.Tech.') 
+# b1 = Branch('ABC','ECE')        
+student_1 = Student('AKTU','B.Tech.','ECE',"Rohit Trivedi")
+faculty = Faculty("ECE","Dr. Pankaj Srivastav")
 # print(Student.mro())
 student_1.display()
 University.display(student_1)
 Branch.display(student_1)
+Faculty.display(faculty)
 Course.display(student_1)

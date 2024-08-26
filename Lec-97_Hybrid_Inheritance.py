@@ -57,7 +57,7 @@ class Faculty(Branch):
 # c1 = Course('ABC','B.Tech.') 
 # b1 = Branch('ABC','ECE')        
 student_1 = Student('AKTU','B.Tech.','ECE',"Rohit Trivedi")
-faculty = Faculty("ECE","Dr. Pankaj Srivastav")
+faculty = Faculty("ECE","Dr. Pankaj Mishra")
 # print(Student.mro())
 student_1.display()
 University.display(student_1)

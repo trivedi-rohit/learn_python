@@ -13,7 +13,7 @@ Question_Bank=[
 ]
 
 options=[
-    ["A. Inheritance,","B. Abstraction","C. Polymorphism","D. Objects\n"],
+    ["A. Inheritance","B. Abstraction","C. Polymorphism","D. Objects\n"],
     ["A. Master Record Order","B. Method Resolution Order", "C. Method Recored Order", "D. Master Resolution Operation\n"],
     ["A. Two level","B. Three level", "C. Any level", "D. None of these\n"],
     ["A. C3 Linearization algorithm", "B. D3 Linearization Algorithm", "C. D3 Poly alogorithim", "D. E3 Linear method algorithm\n"],

@@ -27,8 +27,8 @@ class Branch(Student):
 s1 = Student("Rahul",21,20)
 # s1.name="Jaideep"
 # s1._rollNo=42
-# s1.displayPrivateData()         # mangling
+# s1.displayPrivateData()         # name mangling
 print(s1._Student__age)
-s1._Student__display()            # mangling
+s1._Student__display()            # name mangling
 # print(s1.name)
 # s1.display()

@@ -19,7 +19,7 @@ def Dash():
     t1.forward(10)
     t1.pendown()
 
-for _ in range(5):
+for i in range(5):
     t1.pencolor("red")
     Dash()
     t1.pencolor("cyan")

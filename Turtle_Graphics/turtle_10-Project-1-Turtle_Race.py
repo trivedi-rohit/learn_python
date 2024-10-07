@@ -7,7 +7,12 @@ colorList=['orange','yellow','green','cyan','blue','red','blue4','purple','green
 def usrInput():
     turtleCount = 0
     while True:
-        turtleCount=int(input("How many turtles you want to race (2 - 10) : "))
+        turtleCount=(input("How many turtles you want to race (2 - 10) : "))
+        if turtleCount.isdigit():
+            turtleCount = int(turtleCount)
+        else:
+            print("Please enter numeric value only (2 to 10).")
+            continue
         if 2<=turtleCount<=10:
             return turtleCount
         else:
